@@ -15,7 +15,8 @@ else:
 regNames = ['toba', 'adeyefa', 'oluwatoba']
 
 username = input("Enter your name: ")
-if username in regNames:  # checking if the user already exists in the list
+if username in regNames:  # checking if the user already exists in the list,  use *not in* to check if user is not
+    # in the list
     print("username already taken")
 else:
     regNames.append(username)  # adding the new user to the list
