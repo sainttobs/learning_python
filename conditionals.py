@@ -23,3 +23,24 @@ else:
     print("new user added")
     print(regNames)
 
+# using elif statement
+balance = input("What is your account balance:")
+
+if int(balance) <= 50:
+    print("You do not qualify for any interest.")
+elif int(balance) < 100:
+    bonus = (2/100) * int(balance)
+    print("Your interest is: " + str(bonus))
+else:
+    bonus = (4 / 100) * int(balance)
+    print("Your interest is: " + str(bonus))
+
+
+shoppingCart = ['pens', 'books', 'chalk', 'tables']
+for item in shoppingCart:
+    if item == 'pens':
+        print('product out of stock')
+    else:
+        print('Your product ' + item + " has ben added")
+
+print('Your order is complete')
