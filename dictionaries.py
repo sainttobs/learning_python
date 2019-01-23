@@ -32,3 +32,15 @@ for value in book.values():  # with values
 
 for value in set(book.values()):  # looping with set. Every value in a set must be unique i.e no repetition of values
     print(value)
+
+# using dictionaries in a list
+
+books = []  # creating an empty books list
+for textbook in range(0, 10):  # looping through 10 times
+    textbook = {'title': 'Engineering Mathematics', 'Price': '1500'}  # creating a textbook dictionary
+    books.append(textbook)  # appending the textbook dictionary to the books list
+print(books)
+
+for textbook in books[0:5]:
+    textbook['title'] = 'Software Engineering'  # editing the titles of the first the first 5 textbooks in the list
+print(books[0:5])
