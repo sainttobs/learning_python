@@ -44,3 +44,13 @@ print(books)
 for textbook in books[0:5]:
     textbook['title'] = 'Software Engineering'  # editing the titles of the first the first 5 textbooks in the list
 print(books[0:5])
+
+# using a list in a dictionary
+
+car = {
+    'name': 'Tesla',
+    'type': 'Electric Car',
+    'extras': ['alloys wheels', 'climate control', 'rechargeable battery']
+}
+
+print(car)
