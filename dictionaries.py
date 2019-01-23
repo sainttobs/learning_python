@@ -22,3 +22,13 @@ print(book)
 for key, value in book.items():
     print("\nKey is: " + key)
     print("Value is: " + str(value))
+
+# looping through a dictionary with keys and values
+for detail in book.keys():  # with keys
+    print(detail.title())
+
+for value in book.values():  # with values
+    print(value)
+
+for value in set(book.values()):  # looping with set. Every value in a set must be unique i.e no repetition of values
+    print(value)
