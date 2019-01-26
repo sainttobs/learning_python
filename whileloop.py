@@ -19,7 +19,7 @@ while active:
     else:
         print(message)
 
-# exiting a while loop using a break statement
+# exiting a while loop using a break statement. Also use continue statement to *well* continue
 
 prompt = "\nEnter q to quit \n Enter a book you have read"
 while True:
@@ -28,3 +28,16 @@ while True:
         break
     else:
         print(book)
+
+# using while loops with lists and dictionaries
+unconfirmed_users = ['john', 'bull', 'my', 'son']
+confirmed_users = []
+while unconfirmed_users:
+    current_user = unconfirmed_users.pop()  # the .pop() method removes a value from a list, you can also specify the
+    # index of the value to be removed
+    print("verifying user: " + current_user.title())
+    confirmed_users.append(current_user)
+
+print("The following users have been cnfirmed")
+for confirmed_user in confirmed_users:
+    print(confirmed_user.title())
