@@ -18,3 +18,13 @@ while active:
         active = False
     else:
         print(message)
+
+# exiting a while loop using a break statement
+
+prompt = "\nEnter q to quit \n Enter a book you have read"
+while True:
+    book = input(prompt)
+    if book == "q":
+        break
+    else:
+        print(book)
