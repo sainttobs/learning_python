@@ -1,7 +1,7 @@
 # using return values in a function
 
 
-def exponent(num,n):
+def exponent(num, n):
     exp = num ** n
     return exp
 
