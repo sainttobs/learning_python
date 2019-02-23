@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7b180f2-b461-4c45-abff-642ff6eca017" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/functions/modifyinglistina_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/modifyinglistina_function.py" afterDir="false" />
-    </list>
+    <list default="true" id="b7b180f2-b461-4c45-abff-642ff6eca017" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,15 +10,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inputs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/whileloop.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,11 +55,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/modifyinglistina_function.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functions/addingarbitrarynumberofarguments_functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -140,12 +138,12 @@
         <option value="$PROJECT_DIR$/functions/whileloop_infunctions.py" />
         <option value="$PROJECT_DIR$/functions/passinglistto_function.py" />
         <option value="$PROJECT_DIR$/functions/modifyinglistina_function.py" />
+        <option value="$PROJECT_DIR$/functions/addingarbitrarynumberofarguments_functions.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="71" />
+    <option name="y" value="194" />
     <option name="width" value="1260" />
     <option name="height" value="680" />
   </component>
@@ -155,7 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,6 +169,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,7 +187,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.modifyinglistina_function">
+  <component name="RunManager" selected="Python.addingarbitrarynumberofarguments_functions">
+    <configuration name="addingarbitrarynumberofarguments_functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_tutorials" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions/addingarbitrarynumberofarguments_functions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="modifyinglistina_function" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_tutorials" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,27 +243,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions/passinglistto_function.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="return_values" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_tutorials" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/functions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions/return_values.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -297,11 +295,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.addingarbitrarynumberofarguments_functions" />
         <item itemvalue="Python.modifyinglistina_function" />
         <item itemvalue="Python.passinglistto_function" />
         <item itemvalue="Python.whileloop_infunctions" />
         <item itemvalue="Python.returning_dictionary" />
-        <item itemvalue="Python.return_values" />
       </list>
     </recent_temporary>
   </component>
@@ -319,14 +317,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="71" width="1260" height="680" extended-state="0" />
+    <frame x="0" y="194" width="1260" height="680" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24979724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33032492" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33032492" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -508,6 +507,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/addingarbitrarynumberofarguments_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
