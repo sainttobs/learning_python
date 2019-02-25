@@ -19,3 +19,8 @@ class Book():
     def ebook(self):
         """Simulate an ebook"""
         print(self.name.title() + " is an ebook")
+
+
+my_book = Book('Elon Musk', 19.99, 'Virgin Books')
+print("I am currently reading " + my_book.name.title())
+print("This book cost $" + str(my_book.price) + " and it was published by " + my_book.publisher.title())
