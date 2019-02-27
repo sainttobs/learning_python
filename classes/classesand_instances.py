@@ -26,4 +26,6 @@ class Ereader():
 my_new_ereader = Ereader('Amozon Kindle', 'Paperwhite', 'Adjustable Backliht', 'Several Months of Backlight','300 dpi')
 
 print(my_new_ereader.get_ereader_name())
+
+my_new_ereader.library_count = 36
 my_new_ereader.read_library_count()
