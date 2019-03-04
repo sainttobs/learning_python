@@ -22,10 +22,13 @@ class Ereader():
         """Show the amount of books in our Library"""
         print("You have " + str(self.library_count) + " book in your kindle library.")
 
-
     def update_library_count(self, ebook_count):
         """Set the library count"""
         self.library_count = ebook_count
+
+    def increment_library_count(self, purchased_ebooks):
+        """Add our new ebooks to our library count"""
+        self.library_count += purchased_ebooks
 
 
 my_new_ereader = Ereader('Amozon Kindle', 'Paperwhite', 'Adjustable Backliht', 'Several Months of Backlight','300 dpi')
@@ -33,4 +36,5 @@ my_new_ereader = Ereader('Amozon Kindle', 'Paperwhite', 'Adjustable Backliht', '
 print(my_new_ereader.get_ereader_name())
 
 my_new_ereader.update_library_count(87)
+my_new_ereader.increment_library_count(9)
 my_new_ereader.read_library_count()
