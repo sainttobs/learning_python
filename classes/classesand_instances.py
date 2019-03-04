@@ -31,10 +31,25 @@ class Ereader():
         self.library_count += purchased_ebooks
 
 
-my_new_ereader = Ereader('Amozon Kindle', 'Paperwhite', 'Adjustable Backliht', 'Several Months of Backlight','300 dpi')
+# my_new_ereader = Ereader('Amozon Kindle', 'Paperwhite', 'Adjustable Backliht',
+# 'Several Months of Backlight','300 dpi')
 
-print(my_new_ereader.get_ereader_name())
+# print(my_new_ereader.get_ereader_name())
 
-my_new_ereader.update_library_count(87)
-my_new_ereader.increment_library_count(9)
-my_new_ereader.read_library_count()
+# my_new_ereader.update_library_count(87)
+# my_new_ereader.increment_library_count(9)
+# my_new_ereader.read_library_count()
+
+# INHERITANCE
+class KindleFire(Ereader):
+    """Represent aspects of am ereader specific to a Kindle Ereader
+    Then initialize attributes specific to a kindle fire"""
+
+    def __init__(self, make, model, backlight, battery, screen_type):
+        """Initialize attributes for the kindle Fire"""
+
+        super().__init__(make, model, backlight, battery, screen_type)
+
+
+my_kindle_fire = KindleFire('amazon', 'kindle fire', 'backlight', '12 hour battery light', 'color screen')
+print(my_kindle_fire.get_ereader_name())
