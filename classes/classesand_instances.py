@@ -45,11 +45,17 @@ class KindleFire(Ereader):
     """Represent aspects of am ereader specific to a Kindle Ereader
     Then initialize attributes specific to a kindle fire"""
 
-    def __init__(self, make, model, backlight, battery, screen_type):
+    def __init__(self, make, model, backlight, battery, screen_type, screen_resolution = '1280 * 800'):
         """Initialize attributes for the kindle Fire"""
 
+        self.screen_resolution = screen_resolution
         super().__init__(make, model, backlight, battery, screen_type)
 
+    def describe_screen(self):
+        """Print out some marketing copy about the Kindle Fire"""
+        print("Fire HD 8 features a wide screen " + self.screen_resolution + " HD screen.")
 
 my_kindle_fire = KindleFire('amazon', 'kindle fire', 'backlight', '12 hour battery light', 'color screen')
-print(my_kindle_fire.get_ereader_name())
+# print(my_kindle_fire.get_ereader_name())
+
+my_kindle_fire.describe_screen()
